@@ -1,0 +1,81 @@
+/* App.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #d4fc79, #e696ce);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+div {
+  text-align: center;
+  padding: 2rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #2d3436;
+  margin-bottom: 0.5rem;
+}
+
+p {
+  font-size: 1.2rem;
+  color: #2f3542;
+}
+
+form {
+  margin-top: 2rem;
+  background-color: #ffffffa2;
+  padding: 0.5rem;
+  border-radius: 15px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  display: inline-block;
+}
+
+label {
+  font-size: 1rem;
+  margin-right: 0.5rem;
+  color: #2f3542;
+}
+
+input[type="text"] {
+  padding: 0.5rem;
+  border: 2px solid #2ed573;
+  border-radius: 10px;
+  font-size: 1rem;
+  width: 250px;
+  outline: none;
+  transition: all 0.3s ease-in-out;
+}
+
+input[type="text"]:focus {
+  border-color: #1e90ff;
+  box-shadow: 0 0 5px #1e90ff88;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  margin-left: 1rem;
+   margin-top: 1rem;
+    margin-bottom: 1rem;
+  background-color: #2ed573;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #28a745;
+}
+
+div > div {
+  background-color: #ffffffcc;
+  margin: 1rem auto;
+  padding: 1rem;
+  width: 60%;
+  border-radius: 10px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+}
